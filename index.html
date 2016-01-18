@@ -1,12 +1,16 @@
+<!DOCTYPE html>
 <html>
 
   <head>
-    <script type="text/javascript" src="/_reactor/debug.js"/>
   </head>
 
   <body>
+
+    <script type="text/javascript" src="elm.js"></script>
+    <script type="text/javascript" src="/_reactor/debug.js"></script>
+
     <script>
-      var main = Elm.fullscreenDebug('MyProject.Main', 'MyProject/Main.elm');
+      var elmModule = Elm.fullscreenDebug('Hello', 'Hello.elm');
     </script>
   </body>
 
